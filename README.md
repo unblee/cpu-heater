@@ -4,9 +4,14 @@
 
 :fire: :fire: CPU :fire: :fire:
 
+## Docker run
+
+```
+docker run --rm -e "TIME=30" quay.io/unblee/cpu-heater
+```
+
 ## Environment variables
 
 |Name|Description|Default|
 |-|-|-|
 |TIME|Burning time(sec)|10|
-
