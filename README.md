@@ -6,8 +6,8 @@
 
 ## Docker run
 
-```
-docker run --rm -e "TIME=30" quay.io/unblee/cpu-heater
+```console
+$ docker run --rm -e "TIME=30" quay.io/unblee/cpu-heater
 ```
 
 ## Environment variables
